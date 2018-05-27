@@ -15,7 +15,7 @@ const int TX_BT = 6;
 const int RX_BT = 7 ;
 SoftwareSerial btSerial(TX_BT, RX_BT);
 
-#define DHTPIN 2     
+#define DHTPIN 3     
 #define DHTTYPE DHT22 
 DHT dht(DHTPIN, DHTTYPE);
 
