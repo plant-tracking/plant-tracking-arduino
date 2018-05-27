@@ -77,20 +77,31 @@ String getPlantSample(){
 
   String plantSample;
   plantSample.concat("#");
+  
   plantSample.concat("groundmoisture|");
-  plantSample.concat(groundMoisture); 
+  plantSample.concat(groundMoisture);
+  plantSample.concat("|??");
   plantSample.concat("#");
+  
   plantSample.concat("light|");
   plantSample.concat(light);
+  plantSample.concat("|lm");
   plantSample.concat("#");
+  
   plantSample.concat("uv|");
   plantSample.concat(uv);
+  plantSample.concat("|cat.");
   plantSample.concat("#");
+  
   plantSample.concat("temp|");
   plantSample.concat(temp);
+  plantSample.concat("|°C");
   plantSample.concat("#");
+  
   plantSample.concat("humidity|");
   plantSample.concat(humidity);
+  plantSample.concat("|%");
+  plantSample.concat("#");
   return plantSample;
 }
 
